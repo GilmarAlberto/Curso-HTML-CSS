@@ -3,21 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="nerd.ico" type="image/x-icon">
-    <title>Desafio009</title>
-</head>
-<style>
-    body{
-        background: black;
-    }
-    h1{
-        color:  white;
-        text-align: center;
-    }
-</style>
+    <title>Vídeos Legais</title>
+    <style>
+        body {
+            background: black;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
 
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        iframe {
+            width: 560px;
+            height: 315px;
+        }
+    </style>
+</head>
 <body>
     <h1>Videos Legais para assistir</h1>
-    
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/8TgKFYkcO5Y?si=MOtT_CeeBMouk7f5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <mark style="background-color: aqua;">Texto Marcado</mark>
 </body>
 </html>
